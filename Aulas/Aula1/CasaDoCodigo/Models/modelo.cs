@@ -64,7 +64,7 @@ namespace CasaDoCodigo.Models
     }
 
     public class ItemPedido : BaseModel
-    {   
+    {
         [Required]
         public Pedido Pedido { get; private set; }
         [Required]
